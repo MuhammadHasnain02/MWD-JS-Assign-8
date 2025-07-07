@@ -201,7 +201,7 @@ function submit() {
 
 
   if (status == "Passed") {
-    document.getElementById("msgTxt").innerText = '"Congratulations! You have successfully passed the exam.<br> Keep up the good work and continue striving for excellence."'
+    document.getElementById("msgTxt").innerText = '"Congratulations! You have successfully passed the exam.\n Keep up the good work and continue striving for excellence."'
   }
   else {
     document.getElementById("msgTxt").innerText = '"Unfortunately, you did not pass this time. Dont be discouraged—review\n your mistakes, work harder, and try again. Success is within your reach!"'
